@@ -12,17 +12,26 @@ h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
 nav ul, footer ul { 
-	font-size: 1em;
+/*	font-size: 1em;
 	font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
 	padding: 10px;
 	list-style-type: none;
 	font-weight: bold; 
 	margin: 5;
-	overflow: hidden;
+	overflow: hidden; */
+
+	list-style: none;
+	 margin: 0;
+	 padding: 0;
+	 overflow: hidden;
 }
 nav ul li, footer ul li { 
+	/*
 	display: inline;
 	margin-right: 50px; 
+	float: left;
+	*/
+	
 	float: left;
 } 
 
