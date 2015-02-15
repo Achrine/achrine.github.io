@@ -22,7 +22,7 @@ nav ul, footer ul {
 }
 nav ul li, footer ul li { 
 	display: inline;
-	margin-right: 40px; 
+	margin-right: 50px; 
 	float: left;
 } 
 
@@ -33,7 +33,7 @@ a:link, a:visited {
     color: #FFFFFF;
     background-color: #3b414a;
     text-align: center;
-    padding: 15px;
+    padding: 25px;
     text-decoration: none;
     text-transform: uppercase;
 }
