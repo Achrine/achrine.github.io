@@ -18,7 +18,7 @@ nav ul, footer ul {
 	list-style-type: none;
 	font-weight: bold; 
 	margin: 5;
-	overflow: hidden;
+	overflow: visible;
 }
 nav ul li, footer ul li { 
 	display: inline;
@@ -44,8 +44,22 @@ a:hover, a:active {
 footer { border-top: 5px solid #d5d5d5; font-size: .8em; }
 
 /* Blog */
-ul.posts { margin: 10px auto 40px; font-size: 1.5em; }
-ul.posts li { list-style: none; }
+ul.posts {
+	margin: 10px auto 40px;
+	font-size: 1.5em; 
+	font-family: 'Helvetica', 'Arial', 'Sans-Serif'; 
+	padding: 10px;
+	list-style-type: none;
+	font-weight: bold; 
+	overflow: hidden;
+}
+ul.posts li {
+	list-style: none;
+	display: inline;
+	margin-right: 50px; 
+	float: left;
+
+}
 
 /* CV */
 .cv { margin: 0px 0px 60px; }
