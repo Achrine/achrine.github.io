@@ -17,7 +17,7 @@ nav ul, footer ul {
 	padding: 10px;
 	list-style: none;
 	font-weight: bold; 
-	margin: 50;
+	margin: 5;
 	overflow: hidden;
 }
 nav ul li, footer ul li { 
@@ -41,7 +41,7 @@ a:link, a:visited {
 a:hover, a:active {
 	background-color: #213446;
 }
-footer { border-top: 5px solid #d5d5d5; font-size: .8em; }
+footer { border-top: 50px solid #d5d5d5; font-size: .8em; }
 
 /* Blog */
 ul.posts { margin: 10px auto 40px; font-size: 1.5em; }
